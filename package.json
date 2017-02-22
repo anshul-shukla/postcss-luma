@@ -1,0 +1,38 @@
+{
+  "name": "postcss-luma",
+  "version": "0.0.0",
+  "description": "PostCSS plugin Module for generating contrastive font color based on background coloor",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "text-color",
+    "dynamic-background",
+    "postcss-luma",
+    "luma"
+  ],
+  "author": "anshul.shukla <anshul.shukla@flipkart.com>",
+  "license": "MIT",
+  "repository": "anshul-shukla/postcss-luma",
+  "bugs": {
+    "url": "https://github.com/anshul-shukla/postcss-luma/issues"
+  },
+  "homepage": "https://github.com/anshul-shukla/postcss-luma",
+  "dependencies": {
+    "postcss": "^5.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.2",
+    "eslint-config-postcss": "^2.0.2",
+    "jest": "^18.0.0"
+  },
+  "scripts": {
+    "test": "jest && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "env": {
+      "jest": true
+    }
+  }
+}
